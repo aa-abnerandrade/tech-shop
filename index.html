@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tech Shop</title>
+
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+
+    
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div id="cabecalho__divLogo">
+            <a href="index.html" target="_self"><img id="cabecalho__logo__imagem" src="assets/imagens/logo_tech-shop_250.png" alt="Logotipo da Tech Shop"></a>
+        </div>
+        
+        <div id="cabecalho__divSearch">
+            <input id="cabecalho__search__input" type="text" placeholder="O que deseja encontrar?" onkeyup="search()">
+            <a href="#" class="botoes" onclick="">
+                <img src="#" alt="lupa" height="20" width="20">
+            </a>
+        </div>
+
+        <div id="cabecalho__divLogin">
+            <a href="#" target="_self" id="login__campo">
+                <button class="botoes">Login</button>
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        
+        <!-- INICIAL -->
+        <section class="secoes-principais" id="inicial">
+            <h1 class="titulo">Dezembro Promocional</h1>
+            <p class="texto">Produtos selecionados com 33% de desconto</p>
+            <a href="#produtos__destaques"><button class="botoes">Ver Promoções</button></a>
+        </section>
+
+
+        <!-- PRODUTOS -->
+        <section class="secoes-principais" id="produtos">
+            
+            <!-- SUBSEÇÃO DESTAQUES -->
+            <section class="produtos__subsecoes" id="produtos__destaques">
+                
+                <div class="produtos__subsecoes__divTitulos">
+                    <h2 class="produtos__subsecoes__divTitulos__titulo">Destaques</h2>
+                    <a href="html/todos-produtos.html" target="_self" class="produtos__subsecoes__titulos__links">Ver tudo <img class="seta" src="assets/imagens/seta.png"></a>
+                </div>
+
+                <div class="produtos__subsecoes__divCards">
+
+                </div>
+                
+            </section>
+
+            <!-- SUBSEÇÃO MAIS VENDIDOS -->
+            <section class="produtos__subsecoes" id="produtos__maisvendidos">
+                
+                <div class="produtos__subsecoes__divTitulos">
+                    <h2 class="produtos__subsecoes__divTitulos__titulo">Mais Vendidos</h2>
+                    <a href="html/todos-produtos.html" target="_self" class="produtos__subsecoes__titulos__links">Ver tudo <img class="seta" src="assets/imagens/seta.png"></a>
+                </div>
+
+                <div class="produtos__subsecoes__divCards">
+
+                </div>
+                
+            </section>
+
+            <!-- SUBSEÇÃO DIVERSOS -->
+            <section class="produtos__subsecoes" id="produtos__diversos">
+                
+                <div class="produtos__subsecoes__divTitulos">
+                    <h2 class="produtos__subsecoes__divTitulos__titulo">Diversos</h2>
+                    <a href="html/todos-produtos.html" target="_self" class="produtos__subsecoes__titulos__links">Ver tudo <img class="seta" src="assets/imagens/seta.png"></a>
+                </div>
+
+                <div class="produtos__subsecoes__divCards">
+
+                </div>
+                
+            </section>
+            
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="secoes-principais" id="contato">
+            <div class="contato__divLogo">
+                <img class="logo" src="assets/imagens/logo_tech-shop_250.png" alt="Logo da Tech Shop">
+            </div>
+
+            <div class="contato__divLista">
+                <ul class="contato__lista">
+                    <li class="contato__lista__item">Política de privacidade</li>
+                    <li class="contato__lista__item">Quem somos nós</li>
+                    <li class="contato__lista__item">Programa fidelidade</li>
+                    <li class="contato__lista__item">Nossas lojas</li>
+                    <li class="contato__lista__item">Quero ser franqueado</li>
+                    <li class="contato__lista__item">Anuncie aqui</li>
+                </ul>
+            </div>
+                
+            <div class="contato__divFormulario">
+                <form class="contato__formulario" action="#">
+                    <h2>Fale conosco</h2>
+
+                    <div id="contato__formulário__divSolicitante">
+                        <input class="inputs" name="nome" type="text" placeholder="Nome" minlength="40" data-tipo="nome" required>
+                        <span class="error"></span>
+                    </div>
+
+                    <div id="contato__formulario__divMensagem">
+                        <input class="inputs" name="mensagem" id="mensagem" data-tipo="mensagem" minlength="120" placeholder="Escreva sua mensagem" required>
+                        <span class="error"></span>
+                    </div>
+                    
+                    <input class="inputs" type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+
+            
+        </section>
+
+
+    </main>
+    
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <p>Desenvolvido por <a class="link" href="#">Abner Andrade</a> 
+        </p>
+    </footer>
+
+    <!-- SCRIPTS -->
+</body>
+
+</html>
