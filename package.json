@@ -1,0 +1,18 @@
+{
+  "name": "techsop",
+  "version": "1.0.0",
+  "description": "E-commerce Tech Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "type": "module",
+    "url": "https://github.com/aa-abnerandrade/tech_shop"
+  },
+  "author": "Abner Andrade",
+  "license": "MIT",
+
+  "homepage": "https://github.com/aa-abnerandrade"
+}
